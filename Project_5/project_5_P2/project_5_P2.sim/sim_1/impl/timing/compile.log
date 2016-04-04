@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/project_5_P2/project_5_P2.sim/sim_1/impl/timing/fourBitAddSubSim_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fiveBitAddSub
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/project_5_P2/project_5_P2.srcs/sim_1/new/5bitAddSubSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourBitAddSubSim

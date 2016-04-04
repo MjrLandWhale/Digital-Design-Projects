@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/project_Test/project_Test.srcs/sources_1/new/dmSource.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmSource
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/project_Test/project_Test.srcs/sim_1/new/dmSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmSim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/project_Test/project_Test.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

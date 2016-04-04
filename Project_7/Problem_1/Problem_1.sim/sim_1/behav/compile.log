@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_1/Problem_1.srcs/sources_1/new/NANDCell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NANDCell
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_1/Problem_1.srcs/sim_1/new/NANDCellSIm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NANDCellSIm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_1/Problem_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

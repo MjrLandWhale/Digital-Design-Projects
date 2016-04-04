@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/Problem_4/Problem_4.sim/sim_1/impl/timing/fourBitMultiplierSim_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourBitMultiplier
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/Problem_4/Problem_4.srcs/sim_1/new/fourBitMultiplierSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourBitMultiplierSim

@@ -1,0 +1,7 @@
+Running: xsim.dir/eightBitDRegSim_behav/xsimk -simmode gui -wdb eightBitDRegSim_behav.wdb -simrunnum 0 -socket 41730
+Design successfully loaded
+Design Loading Memory Usage: 116896 KB (Peak: 116916 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 257196 KB (Peak: 322732 KB)
+Simulation CPU Usage: 40 ms

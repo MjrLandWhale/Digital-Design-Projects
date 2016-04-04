@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/Problem_6/Problem_6.sim/sim_1/impl/timing/eightBitRCASim_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightBitRCA
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/Problem_6/Problem_6.srcs/sim_1/new/eightBitRCASim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightBitRCASim

@@ -1,0 +1,7 @@
+Running: xsim.dir/eightBitRCASim_time_impl/xsimk -simmode gui -wdb eightBitRCASim_time_impl.wdb -simrunnum 0 -socket 35723
+Design successfully loaded
+Design Loading Memory Usage: 117004 KB (Peak: 117144 KB)
+Design Loading CPU Usage: 30 ms
+Simulation completed
+Simulation Memory Usage: 256276 KB (Peak: 321812 KB)
+Simulation CPU Usage: 30 ms

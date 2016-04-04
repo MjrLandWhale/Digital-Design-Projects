@@ -1,0 +1,68 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto cd9ca655e9f74a769111e642a5614b2a --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot fourBitAddSubSim_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.fourBitAddSubSim xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/home/mbrandone/Desktop/2015Year/ELEN232/project_5_P2/project_5_P2.sim/sim_1/impl/timing/fourBitAddSubSim_time_impl.v" Line 18. Module fiveBitAddSub has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT2.v" Line 26. Module LUT2 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT2.v" Line 58. Module x_lut2_mux4 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT5.v" Line 28. Module LUT5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT4.v" Line 28. Module LUT4 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT6.v" Line 28. Module LUT6 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT6.v" Line 28. Module LUT6 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT5.v" Line 28. Module LUT5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/mbrandone/Desktop/2015Year/ELEN232/project_5_P2/project_5_P2.sim/sim_1/impl/timing/fourBitAddSubSim_time_impl.v" Line 142. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/mbrandone/Desktop/2015Year/ELEN232/project_5_P2/project_5_P2.sim/sim_1/impl/timing/fourBitAddSubSim_time_impl.v" Line 18. Module fiveBitAddSub has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/IBUF.v" Line 30. Module IBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT2.v" Line 26. Module LUT2 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT2.v" Line 58. Module x_lut2_mux4 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT5.v" Line 28. Module LUT5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT4.v" Line 28. Module LUT4 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT6.v" Line 28. Module LUT6 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/OBUF.v" Line 26. Module OBUF has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT6.v" Line 28. Module LUT6 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/wrk/2015.3/nightly/2015_09_28_1368829/data/verilog/src/unisims/LUT5.v" Line 28. Module LUT5 has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/home/mbrandone/Desktop/2015Year/ELEN232/project_5_P2/project_5_P2.sim/sim_1/impl/timing/fourBitAddSubSim_time_impl.v" Line 142. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "fourBitAddSubSim_time_impl.sdf", for root module "fourBitAddSubSim/UUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "fourBitAddSubSim_time_impl.sdf", for root module "fourBitAddSubSim/UUT".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.LUT6
+Compiling module xil_defaultlib.fiveBitAddSub
+Compiling module xil_defaultlib.fourBitAddSubSim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fourBitAddSubSim_time_impl

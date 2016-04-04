@@ -1,0 +1,366 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Thu Jan 28 14:08:19 2016
+# Process ID: 11721
+# Current directory: /home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.runs/synth_1
+# Command line: vivado -log Problem_3.vds -mode batch -messageDb vivado.pb -notrace -source Problem_3.tcl
+# Log file: /home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.runs/synth_1/Problem_3.vds
+# Journal file: /home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Problem_3.tcl -notrace
+Command: synth_design -top Problem_3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1022.688 ; gain = 161.652 ; free physical = 3045 ; free virtual = 12998
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Problem_3' [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/sources_1/new/Problem_3.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Problem_3' (1#1) [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/sources_1/new/Problem_3.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1062.070 ; gain = 201.035 ; free physical = 3005 ; free virtual = 12959
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1062.070 ; gain = 201.035 ; free physical = 3004 ; free virtual = 12958
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'An[3]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[3]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[2]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[2]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[1]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[1]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[0]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'An[0]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[0]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[0]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[1]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[1]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[2]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[2]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[3]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[3]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[4]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[4]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[5]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[5]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[6]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Hex[6]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[0]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[0]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[1]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[1]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[2]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[2]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[3]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Bin[3]'. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_1_constraints.xdc]
+Parsing XDC File [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_3_constraints.xdc]
+Finished Parsing XDC File [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_3_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/mbrandone/Desktop/2015Year/ELEN232/project_4/project_4.srcs/constrs_1/new/Problem_3_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Problem_3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Problem_3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1334.273 ; gain = 0.000 ; free physical = 2800 ; free virtual = 12754
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11746 
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2796 ; free virtual = 12750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2796 ; free virtual = 12750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:45 ; elapsed = 00:00:45 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2796 ; free virtual = 12750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:45 ; elapsed = 00:00:46 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2795 ; free virtual = 12749
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Problem_3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2795 ; free virtual = 12749
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2797 ; free virtual = 12751
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2797 ; free virtual = 12751
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2797 ; free virtual = 12751
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2797 ; free virtual = 12751
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:14 ; elapsed = 00:01:14 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2775 ; free virtual = 12730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:14 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2775 ; free virtual = 12730
+---------------------------------------------------------------------------------
+Finished Parallel Timing Optimization  : Time (s): cpu = 00:01:14 ; elapsed = 00:01:14 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2775 ; free virtual = 12730
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:14 ; elapsed = 00:01:14 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2775 ; free virtual = 12730
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:14 ; elapsed = 00:01:14 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT3 |     6|
+|2     |LUT5 |    14|
+|3     |LUT6 |    12|
+|4     |IBUF |    13|
+|5     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    53|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:15 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2767 ; free virtual = 12721
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:01 ; elapsed = 00:01:01 . Memory (MB): peak = 1334.273 ; gain = 83.379 ; free physical = 2766 ; free virtual = 12720
+Synthesis Optimization Complete : Time (s): cpu = 00:01:16 ; elapsed = 00:01:16 . Memory (MB): peak = 1334.273 ; gain = 473.238 ; free physical = 2766 ; free virtual = 12720
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 30 Warnings, 30 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 1363.289 ; gain = 431.031 ; free physical = 2766 ; free virtual = 12720
+report_utilization: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.28 . Memory (MB): peak = 1395.309 ; gain = 0.000 ; free physical = 2765 ; free virtual = 12719
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 28 14:09:52 2016...

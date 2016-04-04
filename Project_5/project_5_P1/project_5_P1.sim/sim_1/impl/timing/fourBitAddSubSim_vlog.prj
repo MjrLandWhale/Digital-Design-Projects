@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "fourBitAddSubSim_time_impl.v"
+verilog xil_defaultlib  "../../../../project_5_P1.srcs/sim_1/new/fourBitAddSubSim.v"
+
+# Do not sort compile order
+nosort

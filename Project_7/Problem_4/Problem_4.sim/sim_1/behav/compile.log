@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_4/Problem_4.srcs/sources_1/new/RET_TFlipFlop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RET_TFlipFlop
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_4/Problem_4.srcs/sim_1/new/RET_TFlipFlopSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RET_TFlipFlopSim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_4/Problem_4.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

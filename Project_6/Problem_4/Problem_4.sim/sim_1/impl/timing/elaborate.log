@@ -1,0 +1,21 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto 8a31eeef5fbd452cbe3058dde235ff1d --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot fourBitMultiplierSim_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.fourBitMultiplierSim xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "fourBitMultiplierSim_time_impl.sdf", for root module "fourBitMultiplierSim/UUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "fourBitMultiplierSim_time_impl.sdf", for root module "fourBitMultiplierSim/UUT".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.LUT6
+Compiling module xil_defaultlib.fourBitMultiplier
+Compiling module xil_defaultlib.fourBitMultiplierSim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fourBitMultiplierSim_time_impl

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Thu Feb  4 13:48:37 2016
+# Process ID: 4263
+# Current directory: /home/mbrandone/Desktop/2015Year/ELEN232/project_5_P3/project_5_P3.runs/synth_1
+# Command line: vivado -log ALU.vds -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+# Log file: /home/mbrandone/Desktop/2015Year/ELEN232/project_5_P3/project_5_P3.runs/synth_1/ALU.vds
+# Journal file: /home/mbrandone/Desktop/2015Year/ELEN232/project_5_P3/project_5_P3.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ALU.tcl -notrace

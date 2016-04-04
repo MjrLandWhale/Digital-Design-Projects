@@ -1,0 +1,1 @@
+-wto "c8d2563d697c47d6a9d1190bf03edcd6" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "eightBitRCASim_behav" "xil_defaultlib.eightBitRCASim" "xil_defaultlib.glbl" -log "elaborate.log" 

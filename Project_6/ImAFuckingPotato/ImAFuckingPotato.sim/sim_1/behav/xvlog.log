@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/ImAFuckingPotato/ImAFuckingPotato.srcs/sources_1/new/bitAdder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/ImAFuckingPotato/ImAFuckingPotato.srcs/sources_1/new/multPreRun.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multPreRun
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/ImAFuckingPotato/ImAFuckingPotato.srcs/sources_1/new/fourBitRCA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourBitRCA
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/ImAFuckingPotato/ImAFuckingPotato.srcs/sources_1/new/fourBitMultiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourBitMultiplier
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/ImAFuckingPotato/ImAFuckingPotato.srcs/sim_1/new/fourBitMultiplierSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fourBitMultiplierSim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_6/ImAFuckingPotato/ImAFuckingPotato.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

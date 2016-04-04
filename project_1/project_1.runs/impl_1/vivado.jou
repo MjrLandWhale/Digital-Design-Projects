@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:39 MDT 2015
+# IP Build 1367837 on Mon Sep 28 08:56:14 MDT 2015
+# Start of session at: Mon Dec 21 17:15:06 2015
+# Process ID: 19289
+# Current directory: /home/mbrandone/Desktop/2015Year/ELEN232/project_1/project_1.runs/impl_1
+# Command line: vivado -log Problem_4.vdi -applog -messageDb vivado.pb -mode batch -source Problem_4.tcl -notrace
+# Log file: /home/mbrandone/Desktop/2015Year/ELEN232/project_1/project_1.runs/impl_1/Problem_4.vdi
+# Journal file: /home/mbrandone/Desktop/2015Year/ELEN232/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source Problem_4.tcl -notrace

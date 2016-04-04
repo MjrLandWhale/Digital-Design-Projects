@@ -1,0 +1,1 @@
+-wto "d78fac8a13d941bf8867bc87101dc745" --debug "typical" --relax --mt "8" --maxdelay -L "xil_defaultlib" -L "simprims_ver" -L "secureip" --snapshot "ALU_Sim_time_synth" -transport_int_delays -pulse_r "0" -pulse_int_r "0" "xil_defaultlib.ALU_Sim" "xil_defaultlib.glbl" -log "elaborate.log" 

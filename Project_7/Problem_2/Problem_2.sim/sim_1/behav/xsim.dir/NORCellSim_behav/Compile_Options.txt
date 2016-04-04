@@ -1,0 +1,1 @@
+-wto "cb386bff84c444168d5f9c33c3ce68a2" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "NORCellSim_behav" "xil_defaultlib.NORCellSim" "xil_defaultlib.glbl" -log "elaborate.log" 

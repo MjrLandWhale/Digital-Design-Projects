@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_2/Problem_2.srcs/sources_1/new/NORCell.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NORCell
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_2/Problem_2.srcs/sim_1/new/NORCellSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NORCellSim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_2/Problem_2.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

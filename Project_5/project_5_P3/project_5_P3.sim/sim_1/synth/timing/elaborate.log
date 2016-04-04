@@ -1,0 +1,28 @@
+Vivado Simulator 2015.3
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.3/bin/unwrapped/lnx64.o/xelab -wto d78fac8a13d941bf8867bc87101dc745 --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot ALU_Sim_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.ALU_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "ALU_Sim_time_synth.sdf", for root module "ALU_Sim/UUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "ALU_Sim_time_synth.sdf", for root module "ALU_Sim/UUT".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.x_lut3_mux4
+Compiling module simprims_ver.x_lut3_mux4_reduced_0
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_Sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ALU_Sim_time_synth

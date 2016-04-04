@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "fourBitMultiplierSim_time_impl.v"
+verilog xil_defaultlib  "../../../../ImAFuckingPotato.srcs/sim_1/new/fourBitMultiplierSim.v"
+
+# Do not sort compile order
+nosort

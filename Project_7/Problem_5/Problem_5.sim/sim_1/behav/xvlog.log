@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_5/Problem_5.srcs/sources_1/new/DReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_5/Problem_5.srcs/sources_1/new/8bitDReg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightBitDReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_5/Problem_5.srcs/sim_1/new/eightBitDRegSim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eightBitDRegSim
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/mbrandone/Desktop/2015Year/ELEN232/Project_7/Problem_5/Problem_5.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
